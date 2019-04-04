@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_post_defult_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAG=默认,参数默认" />
+
+    <Button
+        android:id="@+id/bt_post_tag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAG=自定义,参数默认" />
+
+    <Button
+        android:id="@+id/bt_post_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAG=默认,参数自定义" />
+
+    <Button
+        android:id="@+id/bt_post_tag_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAG=自定义,参数自定义" />
+
+
+    <TextView
+        android:id="@+id/tv_show_get_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hello World!" />
+
+</LinearLayout>
