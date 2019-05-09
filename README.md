@@ -21,7 +21,7 @@ allprojects {
 ```
 dependencies {
 ……
-         implementation 'com.github.maascharge:HaylionRxBus:1.1'
+         implementation 'com.github.jianyushanshe:RxBus_JYSS:1.2'
 }
 ```
 
